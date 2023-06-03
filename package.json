@@ -1,15 +1,24 @@
 {
   "name": "semantic-release",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^21.0.2"
+  },
+  "repository": {
+    "url": "https://github.com/goffity/semantic-release"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
