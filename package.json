@@ -14,7 +14,7 @@
     "semantic-release": "^21.0.3"
   },
   "repository": {
-    "url": "https://github.com/goffity/semantic-release.git"
+    "url": "git@github.com:goffity/semantic-release.git"
   },
   "release": {
     "branches": [
