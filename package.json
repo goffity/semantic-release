@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "semantic-release": "^21.0.2"
+    "semantic-release": "^21.0.3"
   },
   "repository": {
-    "url": "https://github.com/goffity/semantic-release"
+    "url": "https://github.com/goffity/semantic-release.git"
   },
   "release": {
     "branches": [
