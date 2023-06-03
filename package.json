@@ -20,5 +20,8 @@
     "branches": [
       "main"
     ]
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
