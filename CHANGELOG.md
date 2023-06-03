@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/goffity/semantic-release/compare/v1.2.1...v1.2.2) (2023-06-03)
+
+
+### Bug Fixes
+
+* changed config github to publish package. ([f0e5b3f](https://github.com/goffity/semantic-release/commit/f0e5b3ffac9144f9451c6f93c50b601b6f1058fe))
+
 ## [1.2.1](https://github.com/goffity/semantic-release/compare/v1.2.0...v1.2.1) (2023-06-03)
 
 
