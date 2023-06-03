@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/goffity/semantic-release/compare/v1.2.0...v1.2.1) (2023-06-03)
+
+
+### Bug Fixes
+
+* Added permission to write package on github. ([b53d2cc](https://github.com/goffity/semantic-release/commit/b53d2cc3aff58e925ebaf73695098ad8f388f0f2))
+
 # [1.2.0](https://github.com/goffity/semantic-release/compare/v1.1.2...v1.2.0) (2023-06-03)
 
 
