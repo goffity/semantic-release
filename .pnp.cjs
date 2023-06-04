@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@octokit/request-error", "npm:4.0.1"],\
             ["@rushstack/eslint-patch", "npm:1.3.0"],\
             ["@semantic-release/changelog", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:6.0.3"],\
             ["@semantic-release/git", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:10.0.1"],\
@@ -916,6 +917,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@octokit-request-error-npm-3.0.3-cbba4d6220-5db0b51473.zip/node_modules/@octokit/request-error/",\
           "packageDependencies": [\
             ["@octokit/request-error", "npm:3.0.3"],\
+            ["@octokit/types", "npm:9.2.3"],\
+            ["deprecation", "npm:2.3.1"],\
+            ["once", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/@octokit-request-error-npm-4.0.1-216f85bc9c-be9869f3c6.zip/node_modules/@octokit/request-error/",\
+          "packageDependencies": [\
+            ["@octokit/request-error", "npm:4.0.1"],\
             ["@octokit/types", "npm:9.2.3"],\
             ["deprecation", "npm:2.3.1"],\
             ["once", "npm:1.4.0"]\
@@ -7649,6 +7660,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@octokit/request-error", "npm:4.0.1"],\
             ["@rushstack/eslint-patch", "npm:1.3.0"],\
             ["@semantic-release/changelog", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:6.0.3"],\
             ["@semantic-release/git", "virtual:7ec8ec8de7d378c56293887621954a0debfe1883b99306a7fc28cf131275f96cea93e445cc28bec6168fe31bce34f5dd7ad697eff680261a45c2d35f3c72ed08#npm:10.0.1"],\
