@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/goffity/semantic-release/compare/v1.4.0...v1.4.1) (2023-06-04)
+
+
+### Bug Fixes
+
+* changed cache and audit for yarn ([6210779](https://github.com/goffity/semantic-release/commit/621077934ae15046da87d3e92af5ed9963ab44b5))
+
 # [1.4.0](https://github.com/goffity/semantic-release/compare/v1.3.0...v1.4.0) (2023-06-04)
 
 
