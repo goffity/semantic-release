@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/goffity/semantic-release/compare/v1.2.2...v1.3.0) (2023-06-04)
+
+
+### Bug Fixes
+
+* Changed package dependcy to npm ([956c075](https://github.com/goffity/semantic-release/commit/956c075602de5ad1974906160004488eff03c44d))
+
+
+### Features
+
+* Added vue framework. ([fe4a437](https://github.com/goffity/semantic-release/commit/fe4a4378fe733af6aa7be1f511ca27b77cbdf935))
+
 ## [1.2.2](https://github.com/goffity/semantic-release/compare/v1.2.1...v1.2.2) (2023-06-03)
 
 
