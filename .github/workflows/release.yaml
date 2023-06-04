@@ -25,10 +25,19 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          cache: yarn
-          node-version: "lts/*"
+          cache: "yarn"
+          node-version: "18"
+      - name: Cache Yarn dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
       - name: Install dependencies
         run: yarn install --immutable
+        env:
+          CI: true
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: yarn audit
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
