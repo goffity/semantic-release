@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/goffity/semantic-release/compare/v1.3.0...v1.4.0) (2023-06-04)
+
+
+### Bug Fixes
+
+* added ignore list for yarn. ([ab495b4](https://github.com/goffity/semantic-release/commit/ab495b49588d42dbe9530a395f1d6d234b32e4ce))
+* changed remove audit dependency for yarn ([af986f5](https://github.com/goffity/semantic-release/commit/af986f585be160d2c9b6e204dadf1e4018571e0e))
+
+
+### Features
+
+* Changed to use yarn (again). ([c48b56e](https://github.com/goffity/semantic-release/commit/c48b56e19a856924dabef649d7bb12255f8d7183))
+
 # [1.3.0](https://github.com/goffity/semantic-release/compare/v1.2.2...v1.3.0) (2023-06-04)
 
 
